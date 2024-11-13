@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_background">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bettermilk"
+        android:text="Welcome..."
+        android:textColor="@color/dark_brown"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnTaskList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/light_brown"
+            android:textColor="@color/dark_brown"
+            android:fontFamily="@font/yangbagus"
+            android:text="Task List" />
+
+        <Button
+            android:id="@+id/btnTaskGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/light_brown"
+            android:textColor="@color/dark_brown"
+            android:fontFamily="@font/yangbagus"
+            android:text="Task Gallery" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/light_brown"
+            android:textColor="@color/dark_brown"
+            android:fontFamily="@font/yangbagus"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/light_brown"
+            android:textColor="@color/dark_brown"
+            android:fontFamily="@font/yangbagus"
+            android:text="Login" />
+
+
+        <Button
+            android:id="@+id/btnBluetoothPairing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/light_brown"
+            android:textColor="@color/dark_brown"
+            android:fontFamily="@font/yangbagus"
+            android:text="Bluetooth Pairing" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/light_brown"
+        android:fontFamily="@font/yangbagus"
+        android:text="Logout"
+        android:textColor="@color/dark_brown"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

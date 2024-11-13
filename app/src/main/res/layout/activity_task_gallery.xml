@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/taskgallery_bg">
+
+    <TextView
+        android:id="@+id/tvTaskGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Photo"
+        android:fontFamily="@font/bettermilk"
+        android:textColor="@color/dark_brown"
+        android:textSize="32sp" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_brown"
+        android:textColor="@color/dark_brown"
+        android:fontFamily="@font/yangbagus"
+        android:text="Take Photo" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_brown"
+        android:textColor="@color/dark_brown"
+        android:fontFamily="@font/yangbagus"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/ivTaskPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
